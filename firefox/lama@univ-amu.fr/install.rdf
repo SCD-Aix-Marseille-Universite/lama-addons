@@ -14,7 +14,7 @@
     em:version="0.1"
     em:homepageURL=""
 
-    em:iconURL="" >
+    em:iconURL="chrome://custombutton/content/icon.png" >
 
     <em:targetApplication><!-- Firefox -->
       <Description
