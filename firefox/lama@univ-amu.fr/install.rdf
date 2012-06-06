@@ -8,7 +8,7 @@
 
     em:name="Accès distant AMU"
     em:description="Accès distant aux ressources électroniques de l'Université d'Aix-Marseille"
-    em:creator="SCD Université Aix-Marseille"
+    em:creator="Bibliothèque Aix-Marseille Université"
 
     em:id="lama@univ-amu.fr"
     em:version="0.1"
