@@ -19,7 +19,7 @@
 <!-- button details -->
 <toolbarbutton id="cbutton"
   label="Accès distant"
-  tooltiptext="Recharger la page pour l'accès distant"
+  tooltiptext="Recharger la page"
   oncommand="transformUrl()"
   class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"
   />
