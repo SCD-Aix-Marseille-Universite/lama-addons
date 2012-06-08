@@ -10,7 +10,7 @@
 <!-- Fennec -->
 <hbox id="identity-container">
   <hbox id="pageactions-container">
-    <pageaction title="Recharger la page" onclick="transformUrl[1]()"/>
+    <pageaction title="Accès hors campus" onclick="transformUrl[1]()"/>
     </hbox>
     </hbox>
 
