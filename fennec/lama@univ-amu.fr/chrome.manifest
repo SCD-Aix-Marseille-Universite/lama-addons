@@ -1,0 +1,4 @@
+content custombutton chrome/
+
+# Fennec
+overlay	chrome://browser/content/browser.xul chrome://custombutton/content/button.xul
