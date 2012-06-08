@@ -12,6 +12,6 @@
     },
     "browser_action": {
         "default_icon": "button.png",
-        "default_title": "Recharger la page"
+        "default_title": "Accès hors campus"
     }
 }

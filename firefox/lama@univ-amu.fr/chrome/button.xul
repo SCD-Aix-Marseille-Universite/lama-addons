@@ -13,13 +13,13 @@
   
 <!-- Firefox -->
 <toolbarpalette id="BrowserToolbarPalette">
-  <toolbarbutton id="cbutton"/>
+  <toolbarbutton id="mybutton"/>
   </toolbarpalette>
 
 <!-- button details -->
-<toolbarbutton id="cbutton"
+<toolbarbutton id="mybutton"
   label="Accès distant"
-  tooltiptext="Recharger la page"
+  tooltiptext="Accès hors campus"
   oncommand="transformUrl()"
   class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"
   />
