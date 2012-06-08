@@ -1,4 +1,8 @@
-function transformUrl() {
-	var l=content.document.location;
-	gBrowser.loadURI(l.href.replace(l,'lama.univ-amu.fr/login?url='+l));
-	}
+transformUrl = {
+
+1: function () {
+   var l=gBrowser.currentURI.spec;
+   gBrowser.loadURI(l.replace(l,'lama.univ-amu.fr/login?url='+l));
+	},
+
+}

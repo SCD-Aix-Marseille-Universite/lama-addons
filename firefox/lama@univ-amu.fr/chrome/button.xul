@@ -20,7 +20,7 @@
 <toolbarbutton id="mybutton"
   label="Accès distant"
   tooltiptext="Accès hors campus"
-  oncommand="transformUrl()"
+  oncommand="transformUrl[1]()"
   class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"
   />
 
