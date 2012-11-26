@@ -10,10 +10,3 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-
-
-    Iconic is licensed under Creative Commons' Attribution-ShareAlike 3.0 United States (CC BY-SA 3.0)
-    http://creativecommons.org/licenses/by-sa/3.0/us/
-
-    http://somerandomdude.com/work/iconic/
