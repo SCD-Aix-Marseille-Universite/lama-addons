@@ -8,7 +8,7 @@
 
     em:name="Accès distant AMU"
     em:description="Accès distant aux ressources électroniques de l'Université d'Aix-Marseille"
-    em:creator="Bibliothèque Aix-Marseille Université"
+    em:creator="Laurent Lhuillier"
 
     em:id="lama@univ-amu.fr"
     em:version="0.1"
@@ -20,7 +20,7 @@
       <Description
         em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
         em:minVersion="1.4"
-        em:maxVersion="99" />
+        em:maxVersion="30" />
     </em:targetApplication>
 
     <em:file>
