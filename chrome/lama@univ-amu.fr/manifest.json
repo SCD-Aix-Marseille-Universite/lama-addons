@@ -1,10 +1,13 @@
 {
     "name": "Accès distant AMU",
     "description": "Accès distant aux ressources électroniques de l'Université d'Aix-Marseille",
-    "version": "0.1",
+    "version": "0.1.1",
+    "manifest_version": 2,
     "permissions": [ "http://*/*", "https://*/*", "tabs" ],
-    "update_url": "http://tonsite.com/chrome/extensions/updates.xml",
-    "background_page": "background.html",
+    "background": {
+        "scripts": ["eventPage.js"],
+        "persistent": false
+        },
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
