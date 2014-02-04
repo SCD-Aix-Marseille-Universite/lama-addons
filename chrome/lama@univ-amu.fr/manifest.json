@@ -1,7 +1,7 @@
 {
-    "name": "Accès distant AMU",
-    "description": "Accès distant aux ressources électroniques de l'Université d'Aix-Marseille",
-    "version": "0.1.1",
+    "name": "lama",
+    "description": "Accès hors campus aux ressources documentaires en ligne de l'Université d'Aix-Marseille",
+    "version": "0.2",
     "manifest_version": 2,
     "permissions": [ "http://*/*", "https://*/*", "tabs" ],
     "background": {

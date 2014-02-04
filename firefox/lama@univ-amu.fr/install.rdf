@@ -6,12 +6,12 @@
   <Description
     about="urn:mozilla:install-manifest"
 
-    em:name="Accès distant AMU"
-    em:description="Accès distant aux ressources électroniques de l'Université d'Aix-Marseille"
+    em:name="lama"
+    em:description="Accès hors campus aux ressources documentaires en ligne de l'Université d'Aix-Marseille"
     em:creator="Laurent Lhuillier"
 
     em:id="lama@univ-amu.fr"
-    em:version="0.2"
+    em:version="0.2.1"
     em:homepageURL=""
 
     em:iconURL="chrome://custombutton/content/icon.png" >
