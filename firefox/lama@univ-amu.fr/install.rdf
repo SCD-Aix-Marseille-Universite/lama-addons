@@ -11,7 +11,7 @@
     em:creator="Laurent Lhuillier"
 
     em:id="lama@univ-amu.fr"
-    em:version="0.1"
+    em:version="0.2"
     em:homepageURL=""
 
     em:iconURL="chrome://custombutton/content/icon.png" >
@@ -20,7 +20,7 @@
       <Description
         em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
         em:minVersion="1.4"
-        em:maxVersion="21.0a1" />
+        em:maxVersion="27.0" />
     </em:targetApplication>
 
     <em:file>

@@ -18,7 +18,7 @@
 
 <!-- button details -->
 <toolbarbutton id="mybutton"
-  label="Accès distant"
+  label="lama"
   tooltiptext="Accès hors campus"
   oncommand="transformUrl[1]()"
   class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"
