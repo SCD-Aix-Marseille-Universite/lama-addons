@@ -1,6 +1,6 @@
 {
     "name": "lama",
-    "description": "Accès hors campus aux ressources documentaires en ligne de l'Université d'Aix-Marseille",
+    "description": "Accès hors campus aux ressources électroniques documentaires de l'Université d'Aix-Marseille",
     "version": "0.2",
     "manifest_version": 2,
     "permissions": [ "http://*/*", "https://*/*", "tabs" ],

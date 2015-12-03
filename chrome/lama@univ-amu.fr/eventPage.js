@@ -1,4 +1,4 @@
-const DEFAULT_BASE_URL = "http://lama.univ-amu.fr/login?url=$@";
+const DEFAULT_BASE_URL = "http://ezproxy.univ-abc.fr/login?url=$@";
 
 function transformUrl(url) {
     var base = localStorage["base_url"];

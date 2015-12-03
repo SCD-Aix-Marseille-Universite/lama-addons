@@ -7,7 +7,7 @@
     about="urn:mozilla:install-manifest"
 
     em:name="lama"
-    em:description="Accès hors campus aux ressources documentaires en ligne de l'Université d'Aix-Marseille"
+    em:description="Accès hors campus aux ressources électroniques documentaires de l'Université d'Aix-Marseille"
     em:creator="Laurent Lhuillier"
 
     em:id="lama@univ-amu.fr"
@@ -20,7 +20,7 @@
       <Description
         em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
         em:minVersion="4.0.*"
-        em:maxVersion="27.*" />
+        em:maxVersion="45.*" />
     </em:targetApplication>
 
     <em:type>2</em:type>
