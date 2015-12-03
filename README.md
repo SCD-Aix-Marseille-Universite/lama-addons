@@ -13,7 +13,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # lama-addons
 
-Extensions de navigateur pour activer l'accès distant AMU en un clic.
+Extensions de navigateur pour activer l'accès hors campus AMU via EZproxy en un clic.
 
 ## Firefox
 
