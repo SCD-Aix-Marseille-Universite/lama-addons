@@ -10,3 +10,15 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# lama-addons
+
+Extensions de navigateur pour activer l'accès distant AMU en un clic.
+
+## Firefox
+
+[Module accès hors campus Firefox sur addons.mozilla.org \(AMO\)](https://addons.mozilla.org/fr/firefox/addon/lama/)
+
+## Chrome
+
+[Module accès hors campus Chrome sur Chrome Web Store](https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh)
