@@ -1,34 +1,12 @@
-### Modèle de mise en page.
-Ce modèle de mise en page pour les thèses de doctorat soutenues à Aix Marseille Université propose un ensemble de fichiers LaTeX commentés, prêt à être compilés dont une classe LaTeX [.cls].
+### Extension pour l'accès distant
 
-[Télécharger le PDF](https://raw.githubusercontent.com/SCD-Aix-Marseille-Universite/latexamu/gh-pages/these.pdf)
+blablabla
 
-La page de titre a obtenu l'approbation du Collège Doctoral Aix-Marseille Université.
+### Navigateurs
 
-### Distribution LaTeX
+Chrome
+Firefox
+Safari
 
-La distribution LaTeX utilisée/recommandée est la [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html).
+### Bookmarklet
 
-### Résumé des fonctionnalités du document
-
-* fichiers sources commentés
-* typographie européenne (KOMA-Script)
-* sommaire, glossaire et index
-* hyperliens dans le sommaire et l'index
-* signets dans le menu latéral Acrobat
-* listes des figures et des tableaux
-* bibliographie et notes de fin
-* hyperliens aller-retour sur les citations et les notes de fin
-* titrage consistant sur tout le document
-* graisse moyenne pour la lecture sur écran
-* numérotation des pages et du PDF identique
-* numérotation continue sur les PDF insérés
-* PDF 1.5 conforme pour archivage pérenne au CINES
-
-### Conformation du fichier
-
-Lors du dépôt légal de votre thèse, si le fichier PDF compilé avec pdflatex est rejeté comme non conforme par le service [Facile](https://facile.cines.fr/) pour archivage au CINES. Vous pouvez le conformer avec une simple commande ghostscript.
-
-```
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=these-valide.pdf these.pdf
-```
