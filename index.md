@@ -16,4 +16,7 @@ blablabla
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne pour tous les principaux navigateurs.
 
+Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le cas, choisissez "Toujours afficher la barre de signets/favoris" dans le menu Outils.
+Faites glisser ce bouton : lama bookmarklet jusqu'à la barre de signets.
+
 <a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama bookmarklet</a>
