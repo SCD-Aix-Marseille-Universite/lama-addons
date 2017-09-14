@@ -14,3 +14,6 @@ blablabla
 
 ### Bookmarklet
 
+Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne pour tous les principaux navigateurs.
+
+<a href="javascript:void(location.href='lama.univ-amu.fr/login?url='+location.href)" class="btn">lama bookmarklet</a>
