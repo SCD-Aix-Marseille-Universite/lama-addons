@@ -1,4 +1,4 @@
-### Extension pour l'accès distant
+### Extensions pour l'accès aux ressources documentaires
 
 Comment utiliser l'extension lama /ou le bookmarklet ?
 
@@ -6,9 +6,9 @@ Comment utiliser l'extension lama /ou le bookmarklet ?
 2. Cliquer sur le bouton situé dans la barre de navigation (clé) /ou sur le bookmarklet situé dans la barre des signets.
 3. Authentifiez-vous avec vos identifiants AMU.
 
-La page se recharge... vous avez activé l'accès hors campus !
+La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
 
-### Navigateurs
+### Navigateurs supportés
 
 <a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a>
 <a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a>
