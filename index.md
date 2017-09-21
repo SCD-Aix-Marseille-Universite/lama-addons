@@ -13,7 +13,7 @@ La page se recharge... vous avez activé l'accès aux ressources documentaires A
 <a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a>
 <a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a>
 
-#### à venir
+#### à venir (2018)
 
 <a href="" target="_blank"><img src="/lama-addons/assets/img/app-safari.png" alt="Firefox"></a>
 
@@ -24,6 +24,6 @@ Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune ins
 
 Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le cas, choisissez "Toujours afficher la barre de signets/favoris" dans le menu Outils.
 
-Faites glisser ce bouton : lama bookmarklet jusqu'à la barre de signets.
+Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
-<a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama bookmarklet</a>
+<a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
