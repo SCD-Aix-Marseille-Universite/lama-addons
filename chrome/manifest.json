@@ -1,0 +1,37 @@
+{
+	"manifest_version" : 2,
+	"name" : "lama AMU",
+    "short_name" : "lama",
+	"description" : "L'accès aux ressources des bibliothèques de l'Université d'Aix-Marseille en 1 clic.",
+	"version" : "0.4",
+	"icons": {
+		"16": "img/1x.png",
+		"32": "img/1x.png",
+		"48": "img/1x.png",
+		"64": "img/1x.png",
+		"128": "img/2x.png"
+	},
+	"browser_action" : {
+		"default_title" : "lama",
+		"default_popup" : "popup.html"
+	},
+	"background" : {
+		"scripts": ["js/geturls.js", "js/jquery.min.js","js/eventPage.js","js/notificationbackground.js"]
+	},
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	"permissions": [
+		"webNavigation",
+		"notifications",
+		"tabs",
+		"storage",
+		"*://*/*"
+	],
+	"web_accessible_resources" : [
+		"notification.html",
+		"notification.html",
+		"suggestedsites.html"
+	]
+}
