@@ -4,7 +4,6 @@ Les extensions lama évoluent ! Dans les jours qui viennent, une nouvelle versio
 
 <b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles sur un site mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>
 
-
 ### Extensions pour l'accès aux ressources documentaires
 
 Comment utiliser l'extension lama /ou le bookmarklet ?
@@ -29,3 +28,5 @@ Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le c
 Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
 <a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
+
+<div id="s-la-widget-3176"></div>
