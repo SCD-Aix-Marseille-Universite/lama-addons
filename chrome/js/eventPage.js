@@ -239,14 +239,14 @@ browser.tabs.onActivated.addListener(function(activeInfo) {
  * The user is redirected to the the appropriate page, 
  * usually one where they can log in to gain access 
  */
-browser.notifications.onButtonClicked.addListener(function(ntId, btnIdx) {
-    if (ntId == myNotificationID && btnIdx === 0) {
+//browser.notifications.onButtonClicked.addListener(function(ntId, btnIdx) {
+//    if (ntId == myNotificationID && btnIdx === 0) {//
 
-        //go to current tab, find that url and redirect
-        getCurrentTabUrl(function(url) {
-            var redirectUrl = getRedirectUrl(url);
+//        //go to current tab, find that url and redirect
+//        getCurrentTabUrl(function(url) {
+//            var redirectUrl = getRedirectUrl(url);//
 
-            browser.tabs.update({ url: redirectUrl });
-        });
-    }
-});
+//            browser.tabs.update({ url: redirectUrl });
+//        });
+//    }
+//});
