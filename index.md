@@ -29,4 +29,4 @@ Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
 <a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
 
-<div id="s-la-widget-3176"></div>
+<div id="libchat_3008f62903e4f96111fa2b658a9a3dad"></div>
