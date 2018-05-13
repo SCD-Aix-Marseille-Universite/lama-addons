@@ -2,7 +2,7 @@
 
 Les extensions lama évoluent ! Dans les jours qui viennent, une nouvelle version vous proposera l'accès AMU uniquement sur les ressources en abonnement.
 
-<b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles sur un site mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>
+<b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles sur chez un éditeur mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>.
 
 ### Extensions pour l'accès aux ressources documentaires
 
