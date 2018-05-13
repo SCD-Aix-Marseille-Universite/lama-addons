@@ -13,12 +13,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # lama-addons
 
-Extensions de navigateur pour activer l'accès hors campus AMU via EZproxy en un clic.
+Extensions de navigateur pour activer l'accès aux ressources documentaires AMU.
 
 ## Firefox
 
-[Module accès hors campus Firefox sur addons.mozilla.org \(AMO\)](https://addons.mozilla.org/fr/firefox/addon/lama/)
+[Module lama Firefox sur addons.mozilla.org \(AMO\)](https://addons.mozilla.org/fr/firefox/addon/lama/)
 
 ## Chrome
 
-[Module accès hors campus Chrome sur Chrome Web Store](https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh)
+[Module lama sur Chrome Web Store](https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh)
