@@ -1,8 +1,8 @@
 {
 	"manifest_version" : 2,
-	"name" : "lama AMU",
+	"name" : "lama",
     "short_name" : "lama",
-	"description" : "L'accès aux ressources des bibliothèques de l'Université d'Aix-Marseille en 1 clic.",
+	"description" : "Accès en 1 clic aux ressources des bibliothèques de l'Université d'Aix-Marseille.",
 	"version" : "0.4",
 	"icons": {
 		"16": "img/1x.png",
