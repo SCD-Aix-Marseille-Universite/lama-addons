@@ -23,8 +23,8 @@ La page se recharge... vous avez activé l'accès aux ressources documentaires A
 <td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
 </tr>
 <tr>
-<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-alt">installer</a></td>
-<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-alt">installer</a></td>
+<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-dwn">installer</a></td>
+<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-dwn">installer</a></td>
 </tr>
 </tbody>
 </table>
