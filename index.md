@@ -16,8 +16,18 @@ La page se recharge... vous avez activé l'accès aux ressources documentaires A
 
 ### Navigateurs supportés
 
-<a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a>
-<a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a>
+<table>
+<tbody>
+<tr>
+<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
+<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
+</tr>
+<tr>
+<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-alt">installer</a></td>
+<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-alt">installer</a></td>
+</tr>
+</tbody>
+</table>
 
 ### Bookmarklet
 
