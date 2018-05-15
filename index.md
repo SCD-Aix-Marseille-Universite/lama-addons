@@ -17,26 +17,28 @@ La page se recharge... vous avez activé l'accès aux ressources documentaires A
 ### Navigateurs supportés
 
 <table>
-<tbody>
-<tr>
-<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
-<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
-</tr>
-<tr>
-<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-dwn">installer</a></td>
-<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-dwn">installer</a></td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
+			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
+		</tr>
+		<tr>
+			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-dwn">installer</a></td>
+			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-dwn">installer</a></td>
+		</tr>
+	</tbody>
 </table>
 
 ### Bookmarklet
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne pour tous les principaux navigateurs.
 
+<a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
+
 Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le cas, choisissez "Toujours afficher la barre de signets/favoris" dans le menu Outils.
 
 Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
-<a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
+<img src="/lama-addons/assets/img/lama_bookmarklet.png">
 
 <div id="libchat_3008f62903e4f96111fa2b658a9a3dad"></div>
