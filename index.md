@@ -6,16 +6,6 @@ Les extensions lama évoluent ! Dans les jours qui viennent, une nouvelle versio
 
 ### Extensions pour l'accès aux ressources documentaires
 
-Comment utiliser l'extension lama /ou le bookmarklet ?
-
-1. Aller sur la page où se trouve le document auquel vous souhaitez accéder.
-2. Cliquer sur le bouton situé dans la barre de navigation (clé) /ou sur le bookmarklet situé dans la barre des signets.
-3. Authentifiez-vous avec vos identifiants AMU.
-
-La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
-
-### Navigateurs supportés
-
 <table>
 	<tbody>
 		<tr>
@@ -29,6 +19,14 @@ La page se recharge... vous avez activé l'accès aux ressources documentaires A
 	</tbody>
 </table>
 
+Comment utiliser l'extension lama ?
+
+1. Aller sur la page où se trouve le document auquel vous souhaitez accéder.
+2. Cliquer sur le bouton situé dans la barre de navigation (clé).
+3. Authentifiez-vous avec vos identifiants AMU.
+
+La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
+
 ### Bookmarklet
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne pour tous les principaux navigateurs.
@@ -40,5 +38,15 @@ Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le c
 Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
 <img src="/lama-addons/assets/img/lama_bookmarklet.png">
+
+Comment utiliser le bookmarklet lama ?
+
+1. Aller sur la page où se trouve le document auquel vous souhaitez accéder.
+2. Cliquer sur le bookmarklet situé dans la barre des signets.
+3. Authentifiez-vous avec vos identifiants AMU.
+
+La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
+
+<b>Attention :</b> si vous rencontrez une erreur, c'est que la ressource n'est pas n'est pas disponible dans les abonnements AMU.
 
 <div id="libchat_3008f62903e4f96111fa2b658a9a3dad"></div>
