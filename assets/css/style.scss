@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    background-color: #009688;  /* update */
+    /* background-color: #009688;   update */
     background-image: -webkit-linear-gradient(left,
     #FF8800,
     #FF8800 14.285%,
@@ -47,7 +47,7 @@
     #5943FF 71.425%,
     #5943FF 85.71%,
     #B243FF 85.71%) !important;
-    background-size: 100% 3px !important; /* update */
+    background-size: 100% !important; /* update */
     background-position: 50% 100% !important;
     background-repeat: no-repeat !important;
     }

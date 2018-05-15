@@ -45,7 +45,7 @@ Comment utiliser le bookmarklet lama ?
 2. Cliquer sur le bookmarklet situé dans la barre des signets.
 3. Authentifiez-vous avec vos identifiants AMU.
 
-La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
+La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 <b>Attention :</b> si vous rencontrez une erreur, c'est que la ressource n'est pas disponible dans les abonnements AMU.
 
