@@ -19,13 +19,17 @@ Les extensions lama évoluent ! Dans les jours qui viennent, une nouvelle versio
 	</tbody>
 </table>
 
+<img src="/lama-addons/assets/img/lama_chrome_KO.png">
+<img src="/lama-addons/assets/img/lama_chrome_login.png">
+<img src="/lama-addons/assets/img/lama_chrome_KO.png">
+
 Comment utiliser l'extension lama ?
 
-1. Aller sur la page où se trouve le document auquel vous souhaitez accéder.
-2. Cliquer sur le bouton situé dans la barre de navigation (clé).
+1. Aller sur la page ou se trouve le document auquel vous souhaitez accéder.
+2. Cliquer sur l'onglet vert en bas à droite de la fenêtre de navigation.
 3. Authentifiez-vous avec vos identifiants AMU.
 
-La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
+La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 ### Bookmarklet
 
