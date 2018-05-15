@@ -13,9 +13,7 @@
 	</tbody>
 </table>
 
-<img src="/lama-addons/assets/img/lama_chrome_KO.png">
-<img src="/lama-addons/assets/img/lama_chrome_login.png">
-<img src="/lama-addons/assets/img/lama_chrome_KO.png">
+<img src="/lama-addons/assets/img/lama_chrome.gif">
 
 Comment utiliser l'extension lama ?
 
