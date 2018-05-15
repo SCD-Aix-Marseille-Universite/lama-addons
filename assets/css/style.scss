@@ -59,9 +59,11 @@
 .btn-alt:hover {
     color: #62affc;
     border-color: #62affc;
+    cursor: grab;
+}
+.btn-alt:active {
     cursor: grabbing;
 }
-
 .btn-dwn {
     background: #1f8dd6;
     color: #fff;
