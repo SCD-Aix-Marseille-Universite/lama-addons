@@ -47,6 +47,6 @@ Comment utiliser le bookmarklet lama ?
 
 La page se recharge... vous avez activé l'accès aux ressources documentaires AMU !
 
-<b>Attention :</b> si vous rencontrez une erreur, c'est que la ressource n'est pas n'est pas disponible dans les abonnements AMU.
+<b>Attention :</b> si vous rencontrez une erreur, c'est que la ressource n'est pas disponible dans les abonnements AMU.
 
 <div id="libchat_3008f62903e4f96111fa2b658a9a3dad"></div>
