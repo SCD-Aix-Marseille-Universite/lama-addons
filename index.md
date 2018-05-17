@@ -27,7 +27,7 @@ La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 ### Bookmarklet
 
-Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne pour tous les principaux navigateurs.
+Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne avec les principaux navigateurs.
 
 <a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
 
