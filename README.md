@@ -15,13 +15,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Extensions de navigateur pour activer l'accès aux ressources documentaires AMU.
 
-
-
-add this to manifest.js in Firefox version
+à ajouter au manifest.js pour la version Firefox
 
 	  "applications": {
 	    "gecko": {
-	      "id": "your_addon_id",
+	      "id": "lama@univ-amu.fr",
 	      "strict_min_version": "42.0"
 	    }
 	  },
