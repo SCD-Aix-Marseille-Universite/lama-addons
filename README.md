@@ -15,6 +15,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Extensions de navigateur pour activer l'accès aux ressources documentaires AMU.
 
+
+
+add this to manifest.js in Firefox version
+
+	  "applications": {
+	    "gecko": {
+	      "id": "your_addon_id",
+	      "strict_min_version": "42.0"
+	    }
+	  },
+
 ## Firefox
 
 [Module lama Firefox sur addons.mozilla.org \(AMO\)](https://addons.mozilla.org/fr/firefox/addon/lama/)
