@@ -233,20 +233,3 @@ browser.tabs.onActivated.addListener(function(activeInfo) {
         });
     });
 });
-
-/**
- * function if user has clicked on "connexion" menu entry
- * The user is redirected to the the appropriate page, 
- * usually one where they can log in to gain access 
- */
-//browser.notifications.onButtonClicked.addListener(function(ntId, btnIdx) {
-//    if (ntId == myNotificationID && btnIdx === 0) {//
-
-//        //go to current tab, find that url and redirect
-//        getCurrentTabUrl(function(url) {
-//            var redirectUrl = getRedirectUrl(url);//
-
-//            browser.tabs.update({ url: redirectUrl });
-//        });
-//    }
-//});
