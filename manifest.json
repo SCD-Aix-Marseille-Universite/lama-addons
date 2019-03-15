@@ -3,7 +3,7 @@
 	"name" : "lama",
     "short_name" : "lama",
 	"description" : "Accès en 1 clic aux ressources des bibliothèques de l'Université d'Aix-Marseille.",
-	"version" : "0.7",
+	"version" : "0.8",
 	"icons": {
 		"16": "img/1x.png",
 		"32": "img/1x.png",
@@ -16,9 +16,38 @@
 		"default_popup" : "popup.html"
 	},
 	"background" : {
-		"scripts": ["js/geturls.js", "js/jquery.min.js","js/eventPage.js","js/notificationbackground.js"]
+		"scripts": [
+			"js/vendors/jquery.min.js",
+			"js/lama/geturls.js",
+			"js/lama/eventPage.js",
+			"js/lama/notificationbackground.js",
+			"js/smash/tabBootstrapbackgroud.js"
+		]
 	},
-	"options_ui": {
+	"content_scripts": [
+	{
+	  "matches": [
+	    "<all_urls>","http://*/*", "https://*/*"
+	  ],
+	  "js": [
+	    "js/vendors/jquery.min.js",
+	    "js/smash/tabBootstrapcontent.js"
+	  ],
+	  "css": [
+	    "css/main.css",
+	    "css/fontawesome.css",
+	    "css/solid.css"
+	  ]
+	},
+	{
+	  "matches": [
+	    "<all_urls>","http://*/*", "https://*/*"
+	  ],
+	  "js": [
+	    "js/vendors/jquery.min.js"
+	  ]
+	}
+	],	"options_ui": {
 		"page": "options.html",
 		"chrome_style": true
 	},
@@ -33,6 +62,7 @@
 	"web_accessible_resources" : [
 		"notification.html",
 		"notification.html",
-		"suggestedsites.html"
+		"suggestedsites.html",
+		"webfonts/*.woff*"
 	]
 }

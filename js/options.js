@@ -7,9 +7,11 @@ if (typeof chrome !== "undefined" && chrome) {
 
 function save_options() {
     var doNotification = document.getElementById('notification').checked;
+    var doBolt = document.getElementById('bolt').checked;
 
     browser.storage.sync.set({
             showNotification: doNotification,
+            showBolt: doBolt,
         },
         function() {
             //update status to let user know the options were saved
@@ -32,6 +34,12 @@ function restore_options() {
         function(items) {
             document.getElementById('notification').checked = items.showNotification;
         });
+    browser.storage.sync.get({
+            showBolt: true,
+        },
+        function(items) {
+            document.getElementById('bolt').checked = items.showBolt;
+        });
 }
 
 /**
@@ -43,6 +51,7 @@ document.addEventListener('DOMContentLoaded', restore_options);
  * Listen to the 'notification' button
  */
 document.getElementById('notification').addEventListener('click', save_options);
+document.getElementById('bolt').addEventListener('click', save_options);
 
 /**
  * Start

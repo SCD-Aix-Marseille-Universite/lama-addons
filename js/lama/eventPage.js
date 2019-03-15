@@ -149,7 +149,7 @@ function checkRedirect(checkResult, url, tabId, userPreferences) {
                     code: 'var notetype="mini";'
                 },
                 function() {
-                    browser.tabs.executeScript(tabId, { file: "js/content.js" }, function() {});
+                    browser.tabs.executeScript(tabId, { file: "js/lama/content.js" }, function() {});
                 });
         }; //end of if shownotification
     } //end
@@ -194,7 +194,6 @@ function getCurrentTabUrl(callback) {
  *
  */
 browser.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
-
 
     if (changeInfo.status === 'complete') {
         var url = tab.url;
