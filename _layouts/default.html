@@ -13,8 +13,9 @@
   <body>
     <section class="page-header">
       <img src="/lama-addons/assets/img/amu.png">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name"></h1>
       <img src="/lama-addons/assets/img/lama.png">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <!-- <a href="{{ site.github.repository_url }}" class="btn">Voir le code source sur GitHub</a> -->
@@ -27,7 +28,7 @@
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> fait avec amour par <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
-          <span class="site-footer-owner">logo lama par <a href="https://thenounproject.com/vishal.marotkar/">V I S H A L</a> sur <a href="https://thenounproject.com/">Noun Project</a></span>
+          <span class="site-footer-owner">logo Llama par <a href="https://thenounproject.com/vishal.marotkar/">V I S H A L</a> sur <a href="https://thenounproject.com/">Noun Project</a></span>
         {% endif %}
       </footer>
     </section>
