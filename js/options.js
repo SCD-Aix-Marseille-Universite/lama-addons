@@ -11,7 +11,7 @@ function save_options() {
 
     browser.storage.sync.set({
             showNotification: doNotification,
-            showBolt: doBolt,
+            showBolt: doBolt
         },
         function() {
             //update status to let user know the options were saved
@@ -52,16 +52,3 @@ document.addEventListener('DOMContentLoaded', restore_options);
  */
 document.getElementById('notification').addEventListener('click', save_options);
 document.getElementById('bolt').addEventListener('click', save_options);
-
-/**
- * Start
- */
-$(document).ready(function() {
-    browser.storage.sync.get({
-            npsrecorded: 0
-        },
-        function(items) {
-            var display = items.npsrecorded === 1 ? 'none' : 'block';
-            $('#nps-info').css('display', display);
-        });
-});

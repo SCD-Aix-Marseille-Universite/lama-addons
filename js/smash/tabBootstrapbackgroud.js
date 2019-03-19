@@ -4,7 +4,6 @@ if (typeof chrome !== "undefined" && chrome) {
 
 
 browser.runtime.onConnect.addListener(function (port) {
-        console.log("hi5");
 
   port.onMessage.addListener(function (page) {
     
