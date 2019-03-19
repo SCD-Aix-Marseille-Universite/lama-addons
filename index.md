@@ -1,4 +1,4 @@
-### Extensions pour l'accès aux ressources documentaires
+## Extensions pour l'accès aux ressources documentaires
 
 <table>
 	<tbody>
@@ -15,7 +15,7 @@
 
 <img src="/lama-addons/assets/img/lama_chrome.gif">
 
-Comment utiliser l'extension lama ?
+### Comment utiliser l'extension lama ?
 
 1. Aller sur la page ou se trouve le document auquel vous souhaitez accéder.
 2. Cliquer sur l'onglet vert en bas à droite de la fenêtre de navigation.
@@ -25,7 +25,7 @@ La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 <b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles chez un éditeur mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>.
 
-### Bookmarklet
+## Bookmarklet
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne avec les principaux navigateurs.
 
@@ -37,7 +37,7 @@ Faites glisser le bouton 'lama' jusqu'à la barre de signets.
 
 <img src="/lama-addons/assets/img/lama_bookmarklet.png">
 
-Comment utiliser le bookmarklet lama ?
+### Comment utiliser le bookmarklet lama ?
 
 1. Aller sur la page où se trouve le document auquel vous souhaitez accéder.
 2. Cliquer sur le bookmarklet situé dans la barre des signets.
