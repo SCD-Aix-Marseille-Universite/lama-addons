@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+}
 
 td {
     border: 1px solid #fff !important;
@@ -22,12 +23,12 @@ a {
 
 .page-header {
     background-image: linear-gradient(120deg, #BB3430, #C15F9C) !important;
-    }
+}
 
 .btn-alt {
     color: #1e6bb8;
     border-color: #1e6bb8;
-    }
+}
 .btn-alt:hover {
     color: #62affc;
     border-color: #62affc;
