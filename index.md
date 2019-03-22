@@ -25,6 +25,12 @@ La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 <b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles chez un éditeur mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>.
 
+### Qu'est-ce qui vous attend ?
+
+Lors de la prochaine mise à jour de printemps, l'extension lama vous proposera d'afficher des liens supplémentaires sur les page web contenant des références bibliographiques. Les boutons SMASH permettrons d'interroger la disponibilité du texte intégral d'une référence dans les abonnements de l'université.
+
+<img src="/lama-addons/assets/img/smash.gif">
+
 ## Bookmarklet
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne avec les principaux navigateurs.
