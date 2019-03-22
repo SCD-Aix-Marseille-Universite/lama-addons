@@ -3,8 +3,8 @@
 <table>
 	<tbody>
 		<tr>
-			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" target="_blank"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
-			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" target="_blank"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
+			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
+			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
 		</tr>
 		<tr>
 			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-dwn">installer</a></td>
