@@ -27,7 +27,7 @@ La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 ### Qu'est-ce qui vous attend ?
 
-Lors de la prochaine mise à jour de printemps, l'extension lama vous proposera d'afficher des liens supplémentaires sur les page web contenant des références bibliographiques. Les boutons SMASH permettrons d'interroger la disponibilité du texte intégral d'une référence dans les abonnements de l'université.
+Lors de la prochaine mise à jour de printemps, l'extension lama vous proposera d'afficher des liens supplémentaires sur les pages web contenant des références bibliographiques. Les boutons SMASH vont vous permettre d'interroger la disponibilité du texte intégral d'une référence dans les abonnements de l'université.
 
 <img src="/lama-addons/assets/img/smash.png">
 
