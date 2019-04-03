@@ -1,5 +1,7 @@
-'use strict';
-var browser = chrome || browser;
+if (typeof chrome !== "undefined" && chrome) {
+    browser = chrome
+}
+
 var port = browser.runtime.connect(),
     page = {
       contentType: window.document.contentType

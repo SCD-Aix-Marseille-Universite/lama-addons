@@ -65,7 +65,7 @@ SMASHLinkInserter = {
   skipPattern: new RegExp('^[:\\/\\s]+$', 'i'),
 
   // PII pattern in links
-  regexPIIPattern: new RegExp('\\pii\\/([A-Z0-9]{16,20})', 'gi'),
+///  regexPIIPattern: new RegExp('\\pii\\/([A-Z0-9]{16,20})', 'gi'),
 
   // The last group should be the parameters for openurl resolver
   openUrlPattern: /.*(sh2hh6qx2e).*(serialssolutions).com.*(\/|%2(F|f))?\?*(.*)/,
@@ -74,7 +74,7 @@ SMASHLinkInserter = {
     DOI_ADDRESS: 2,
     PUBMED_ADDRESS: 3,
     HAS_OPEN_URL: 4,
-    HAS_PII: 5,
+///    HAS_PII: 5,
   },
 
   onDOMContentLoaded: function () {
@@ -83,15 +83,17 @@ SMASHLinkInserter = {
     if (document.contentType === 'text/html') {
       var currentUrl = window.location.href;
       SMASHLinkInserter.findAndReplaceLinks(rootElement);
-      rootElement.addEventListener('DOMNodeInserted', SMASHLinkInserter.onDOMNodeInserted, false);
+//      rootElement.addEventListener('DOMNodeInserted', SMASHLinkInserter.onDOMNodeInserted, false);
+// https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
     }
 
   },
 
-  onDOMNodeInserted: function (event) {
-    var node = event.target;
-    SMASHLinkInserter.findAndReplaceLinks(node);
-  },
+//  onDOMNodeInserted: function (event) {
+//    var node = event.target;
+//    console.log('node is inserted');
+//    SMASHLinkInserter.findAndReplaceLinks(node);
+//  },
 
   scanForDoiAndPubmedStrings: function (domNode, prefixStatus) {
     var prefix = prefixStatus;
@@ -205,10 +207,10 @@ SMASHLinkInserter = {
         // PubMed ID
         this.createPubmedLink(href, link);
       }
-      else if (flags === this.flags.HAS_PII) {
-        // Publisher Item Identifier
-        this.createPIILink(href, link);
-      }
+///      else if (flags === this.flags.HAS_PII) {
+///        // Publisher Item Identifier
+///        this.createPIILink(href, link);
+///      }
 
     }
 
@@ -241,9 +243,9 @@ SMASHLinkInserter = {
     } else if (href.indexOf('ncbi.nlm.nih.gov') !== -1 && this.pubmedPattern.test(href)) {
       // Check if the href contains a PMID link
       mask = this.flags.PUBMED_ADDRESS;
-    } else if (this.regexPIIPattern.test(href) && currentUrl.indexOf('scholar.google.') === -1) {
-      // Check if the href contains a PII link
-      mask = this.flags.HAS_PII;
+///    } else if (this.regexPIIPattern.test(href) && currentUrl.indexOf('scholar.google.') === -1) {
+///      // Check if the href contains a PII link
+///      mask = this.flags.HAS_PII;
     } else if (href.indexOf('serialssolutions.com') !== -1 && this.openUrlPattern.test(href)) {
       if (link.getAttribute('class') !== 'documentLink') {
         mask = this.flags.OPEN_URL_BASE;
@@ -284,15 +286,15 @@ SMASHLinkInserter = {
     link.setAttribute('name', 'SMASHVisited');
   },
 
-  createPIILink: function (href, link) {
-    var matches = href.match(this.regexPIIPattern);
-    if (matches && (matches.length > 0)) {
-      var smashUrl = 'rft_id=info:' + matches[0] + '&rft.genre=article,chapter,bookitem&svc.fulltext=yes';
-      var newLink = this.buildButton(smashUrl);
-      link.parentNode.insertBefore(newLink, link.nextSibling);
-      link.setAttribute('name', 'SMASHVisited');
-    }
-  },
+///  createPIILink: function (href, link) {
+///    var matches = href.match(this.regexPIIPattern);
+///    if (matches && (matches.length > 0)) {
+///      var smashUrl = 'rft_id=info:' + matches[0] + '&rft.genre=article,chapter,bookitem&svc.fulltext=yes';
+///      var newLink = this.buildButton(smashUrl);
+///      link.parentNode.insertBefore(newLink, link.nextSibling);
+///      link.setAttribute('name', 'SMASHVisited');
+///    }
+///  },
 
   // Wikipedia for instance is using COInS spans
   createSpanBasedLinks: function (doc) {
@@ -332,9 +334,9 @@ SMASHLinkInserter = {
     browser.runtime.sendMessage({
       btnExist: true
     });
-    // set the added link, this will avoid an extra call to the OpenURL API and fix the access url
+    // set the added link, this will avoid an extra call to the OpenURL API and fix the access url /////////
     var a = document.createElement('a');
-    a.href = resourceUrl.replace('/original', '/pdf')
+///    a.href = resourceUrl.replace('/original', '/pdf')
     a.target = '_blank';
     a.alt = 'SMASH';
     a.name = 'SMASHLink';
@@ -382,7 +384,7 @@ function getUserPreferences(callback) {
 }
 
 getUserPreferences(function(userPreferences) {
-if (userPreferences.showBolt) {
-  SMASHLinkInserter.onDOMContentLoaded();
-};
+  if (userPreferences.showBolt) {
+    SMASHLinkInserter.onDOMContentLoaded();
+  };
 });
