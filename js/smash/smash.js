@@ -57,7 +57,7 @@ SMASHLinkInserter = {
   regexDoiPatternConservative: new RegExp('(10\\.\\d{4,5}\\/[\\S]+[^;,.\\s])', 'gi'),
 
   // PMID
-  pubmedPattern: new RegExp('http.*\\/\\/.*ncbi\\.nlm\\.nih\\.gov.*\\/pubmed.*(\\/|=)([0-9]{4,12})', 'i'),
+  pubmedPattern: new RegExp('\\/\\/.*ncbi\\.nlm\\.nih\\.gov.*\\/pubmed.*(\\/|=)([0-9]{4,12})', 'i'),
   pubmedGroup: 1,
   regexPMIDPattern: new RegExp('(PubMed\\s?(ID\\s?:?|:)|PM\\s?ID)[\\s:\\/]?\\s*([0-9]{4,12})', 'gi'),
   regexPrefixPMIDPattern: new RegExp('((PubMed\\s?(ID)?:?)|(PM\\s?ID))[\\s:\\/]*$', 'i'),
@@ -300,7 +300,7 @@ SMASHLinkInserter = {
   createSpanBasedLinks: function (doc) {
     // Detect latent OpenURL SPANS and replace them with SMASH links
     var spans = doc.getElementsByTagName('span');
-    for (var i = 0, n = spans.length; i < n; i++) {
+    for (var i = 0, n = spans.length*2; i < n; i++) {
       var span = spans[i];
       var query = span.getAttribute('title');
 
@@ -336,7 +336,7 @@ SMASHLinkInserter = {
     });
     // set the added link, this will avoid an extra call to the OpenURL API and fix the access url /////////
     var a = document.createElement('a');
-///    a.href = resourceUrl.replace('/original', '/pdf')
+    a.href = resourceUrl
     a.target = '_blank';
     a.alt = 'SMASH';
     a.name = 'SMASHLink';
@@ -373,6 +373,7 @@ SMASHLinkInserter = {
 
   },
 };
+
 
 function getUserPreferences(callback) {
     browser.storage.sync.get({

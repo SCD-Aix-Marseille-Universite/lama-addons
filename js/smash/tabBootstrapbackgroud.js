@@ -3,7 +3,7 @@ if (typeof chrome !== "undefined" && chrome) {
 }
 
 var blackList = [
-  'catalogue.univ-amu.fr',
+//  'catalogue.univ-amu.fr',
   'sh2hh6qx2e.search.serialssolutions.com',
   'univ-amu.summon.serialssolutions.com',
 ],
