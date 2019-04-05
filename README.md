@@ -15,7 +15,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Extensions de navigateur pour activer l'accès aux ressources documentaires AMU.
 
-Pour la version Chrome
+Pour la version Chrome :
 
 * à supprimer au manifest.js
 
@@ -26,7 +26,7 @@ Pour la version Chrome
 	    }
 	  },
 
-* modifier les lignes commentées à solid.css
+* intervertir les lignes commentées dans solid.css
 
 ## Firefox
 
