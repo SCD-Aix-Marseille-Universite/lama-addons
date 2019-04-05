@@ -57,15 +57,12 @@ SMASHLinkInserter = {
   regexDoiPatternConservative: new RegExp('(10\\.\\d{4,5}\\/[\\S]+[^;,.\\s])', 'gi'),
 
   // PMID
-  pubmedPattern: new RegExp('\\/\\/.*ncbi\\.nlm\\.nih\\.gov.*\\/pubmed.*(\\/|=)([0-9]{4,12})', 'i'),
-  pubmedGroup: 1,
+  pubmedPattern: new RegExp('(|http.*\\/\\/).*ncbi\\.nlm\\.nih\\.gov.*\\/pubmed.*(\\/|=)([0-9]{4,12})', 'i'),
+  pubmedGroup: 2,
   regexPMIDPattern: new RegExp('(PubMed\\s?(ID\\s?:?|:)|PM\\s?ID)[\\s:\\/]?\\s*([0-9]{4,12})', 'gi'),
   regexPrefixPMIDPattern: new RegExp('((PubMed\\s?(ID)?:?)|(PM\\s?ID))[\\s:\\/]*$', 'i'),
   regexSuffixPMIDPattern: new RegExp('^\\s*[:\\/]?\\s*([0-9]{4,12})', 'i'),
   skipPattern: new RegExp('^[:\\/\\s]+$', 'i'),
-
-  // PII pattern in links
-///  regexPIIPattern: new RegExp('\\pii\\/([A-Z0-9]{16,20})', 'gi'),
 
   // The last group should be the parameters for openurl resolver
   openUrlPattern: /.*(sh2hh6qx2e).*(serialssolutions).com.*(\/|%2(F|f))?\?*(.*)/,
@@ -74,7 +71,6 @@ SMASHLinkInserter = {
     DOI_ADDRESS: 2,
     PUBMED_ADDRESS: 3,
     HAS_OPEN_URL: 4,
-///    HAS_PII: 5,
   },
 
   onDOMContentLoaded: function () {
@@ -84,7 +80,7 @@ SMASHLinkInserter = {
       var currentUrl = window.location.href;
       SMASHLinkInserter.findAndReplaceLinks(rootElement);
 //      rootElement.addEventListener('DOMNodeInserted', SMASHLinkInserter.onDOMNodeInserted, false);
-// https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
+// TODO : https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
     }
 
   },
@@ -207,10 +203,6 @@ SMASHLinkInserter = {
         // PubMed ID
         this.createPubmedLink(href, link);
       }
-///      else if (flags === this.flags.HAS_PII) {
-///        // Publisher Item Identifier
-///        this.createPIILink(href, link);
-///      }
 
     }
 
@@ -243,9 +235,6 @@ SMASHLinkInserter = {
     } else if (href.indexOf('ncbi.nlm.nih.gov') !== -1 && this.pubmedPattern.test(href)) {
       // Check if the href contains a PMID link
       mask = this.flags.PUBMED_ADDRESS;
-///    } else if (this.regexPIIPattern.test(href) && currentUrl.indexOf('scholar.google.') === -1) {
-///      // Check if the href contains a PII link
-///      mask = this.flags.HAS_PII;
     } else if (href.indexOf('serialssolutions.com') !== -1 && this.openUrlPattern.test(href)) {
       if (link.getAttribute('class') !== 'documentLink') {
         mask = this.flags.OPEN_URL_BASE;
@@ -279,22 +268,12 @@ SMASHLinkInserter = {
     var smashUrl =
       href.replace(
         this.pubmedPattern,
-        'rft_id=info:pmid/$2&rft.genre=article,chapter,bookitem&svc.fulltext=yes'
+        'rft_id=info:pmid/$3&rft.genre=article,chapter,bookitem&svc.fulltext=yes'
       );
     var newLink = this.buildButton(smashUrl);
     link.parentNode.insertBefore(newLink, link.nextSibling);
     link.setAttribute('name', 'SMASHVisited');
   },
-
-///  createPIILink: function (href, link) {
-///    var matches = href.match(this.regexPIIPattern);
-///    if (matches && (matches.length > 0)) {
-///      var smashUrl = 'rft_id=info:' + matches[0] + '&rft.genre=article,chapter,bookitem&svc.fulltext=yes';
-///      var newLink = this.buildButton(smashUrl);
-///      link.parentNode.insertBefore(newLink, link.nextSibling);
-///      link.setAttribute('name', 'SMASHVisited');
-///    }
-///  },
 
   // Wikipedia for instance is using COInS spans
   createSpanBasedLinks: function (doc) {
@@ -334,7 +313,7 @@ SMASHLinkInserter = {
     browser.runtime.sendMessage({
       btnExist: true
     });
-    // set the added link, this will avoid an extra call to the OpenURL API and fix the access url /////////
+    // set the added link, this will avoid an extra call to the OpenURL API and fix the access url
     var a = document.createElement('a');
     a.href = resourceUrl
     a.target = '_blank';
