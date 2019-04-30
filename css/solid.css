@@ -3,11 +3,10 @@
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff");
-/*  src: url("chrome-extension://__MSG_@@extension_id__/webfonts/fa-solid-900.woff2") format("woff2"), url("chrome-extension://__MSG_@@extension_id__/webfonts/fa-solid-900.woff") format("woff");*/
+  src: url("../webfonts/xfa-solid-900.woff2") format("woff2"), url("../webfonts/xfa-solid-900.woff") format("woff");
+/*  src: url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff2") format("woff2"), url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff") format("woff");*/
  }
 
-.fa,
-.fas {
+.xfas {
   font-family: 'FontAwesomeX';
   font-weight: 900; }
