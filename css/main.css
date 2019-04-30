@@ -16,7 +16,7 @@ a[name="SMASHLink"].smash-link {
     text-align:center !important;
     vertical-align:middle !important;
     text-decoration: none !important;
-    font-family: "ubuntu",sans-serif !important;
+    font-family: "Segoe UI","ubuntu",sans-serif !important;
     font-size: 11px !important;
     text-shadow: 0.5px 0.5px #0050b5 !important;
 }
@@ -35,7 +35,7 @@ a[name="SMASHLink"].smash-link:active {
 
 
 a[name="SMASHLink"].smash-link:before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "FontAwesomeX";
   font-weight: 400;
   content: "\f0e7";
 }
