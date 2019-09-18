@@ -18,7 +18,7 @@
 ### Comment utiliser l'extension lama ?
 
 1. Aller sur la page ou se trouve le document auquel vous souhaitez accéder.
-2. Cliquer sur l'onglet vert en bas à droite de la fenêtre de navigation.
+2. Cliquer sur l'onglet orange en bas à droite de la fenêtre de navigation.
 3. Authentifiez-vous avec vos identifiants AMU.
 
 La page se recharge… vous avez activé l’accès abonné à la ressource !
