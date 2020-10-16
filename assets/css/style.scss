@@ -65,6 +65,14 @@ td {
     color: #fff;
     border: 1px solid #1f8dd6;
 }
+.btn-dwn-inactive {
+    background: #a1b0ba;
+    color: #fff;
+    border: 1px solid #a1b0ba;
+}
+.btn-dwn-inactive {
+    cursor: not-allowed;
+}
 .btn-dwn:hover {
     background: #1f8dd6;
     color: #fff;
