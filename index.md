@@ -5,12 +5,12 @@
 		<tr>
 			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh"><img src="/lama-addons/assets/img/app-chrome.png" alt="Chrome"></a></td>
 			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/"><img src="/lama-addons/assets/img/app-firefox.png" alt="Firefox"></a></td>
-			<td><a href=""><img src="/lama-addons/assets/img/app-safari.png" alt="Safari"></a></td>
+			<td><a><img src="/lama-addons/assets/img/app-safari.png" alt="Safari"></a></td>
 		</tr>
 		<tr>
 			<td><a href="https://chrome.google.com/webstore/detail/lama/cakeojbohkollebkgkdigjgfkjnahchh" class="btn btn-dwn">installer</a></td>
 			<td><a href="https://addons.mozilla.org/fr/firefox/addon/lama/" class="btn btn-dwn">installer</a></td>
-			<td><a href="" class="btn btn-dwn-inactive">bientôt</a></td>
+			<td><a class="btn btn-dwn-inactive">demain !</a></td>
 		</tr>
 	</tbody>
 </table>
