@@ -71,7 +71,10 @@ td {
     border: 1px solid #a1b0ba;
 }
 .btn-dwn-inactive:hover {
-    cursor: not-allowed;
+    background: #a1b0ba;
+    color: #fff;
+    border: 1px solid #a1b0ba;
+    cursor: wait;
 }
 .btn-dwn:hover {
     background: #1f8dd6;
