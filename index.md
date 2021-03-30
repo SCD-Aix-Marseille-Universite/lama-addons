@@ -27,13 +27,17 @@ La page se recharge… vous avez activé l’accès abonné à la ressource !
 
 <b>Attention :</b> l'activation lama est possible lorsque des contenus en abonnement sont disponibles chez un éditeur mais tout le contenu peut ne pas être accessible. Nous vous conseillons d'installer également l'extension <a href="https://unpaywall.org/products/extension" target="_blank">Unpaywall</a>.
 
-### Nouveau : les liens SMASH !
+<img src="/lama-addons/assets/img/lama_menu.png">
+
+Le menu lama permet également de vous authentifier mais aussi d'accéder directement au moteur de recherche Summon et au répertoire Revues AZ.
+
+### Les liens SMASH !
 
 L'extension lama vous propose désormais d'afficher des liens supplémentaires sur les pages web contenant des références bibliographiques. Les boutons SMASH vous permettent d'interroger la disponibilité du texte intégral d'une référence.
 
 <img src="/lama-addons/assets/img/smash.png">
 
-## Bookmarklet
+## Le bookmarklet
 
 Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne avec les principaux navigateurs.
 
