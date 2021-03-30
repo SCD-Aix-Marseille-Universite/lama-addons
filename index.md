@@ -35,7 +35,7 @@ L'extension lama vous propose d'afficher des liens supplémentaires sur les page
 
 ## Le bookmarklet
 
-Le bookmarklet lama peut-être installé par simple glisser-déposer, aucune installation n'est nécessaire, et il fonctionne avec les principaux navigateurs.
+Le bookmarklet lama est une alternative à l'extension. Aucune installation n'est nécessaire, il fonctionne avec les principaux navigateurs par simple glisser-déposer.
 
 <a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
 
