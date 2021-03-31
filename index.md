@@ -37,7 +37,7 @@ L'extension lama vous propose d'afficher des liens supplémentaires sur les page
 
 Le bookmarklet lama est une alternative à l'extension. Aucune installation n'est nécessaire, il fonctionne avec les principaux navigateurs par simple glisser-déposer.
 
-<a href="javascript:void(location.href='http://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
+<a href="javascript:void(location.href='https://lama.univ-amu.fr/login?url='+location.href)" class="btn btn-alt">lama</a>
 
 Assurez-vous que la "Barre de signets/favoris" est visible. Si ce n'est pas le cas, choisissez "Toujours afficher la barre de signets/favoris" dans le menu Outils.
 
