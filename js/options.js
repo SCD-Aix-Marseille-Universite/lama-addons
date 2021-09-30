@@ -7,19 +7,19 @@ if (typeof chrome !== "undefined" && chrome) {
 
 function save_options() {
     var doNotification = document.getElementById('notification').checked;
-    var doBolt = document.getElementById('bolt').checked;
+    var doSmash = document.getElementById('smash').checked;
 
     browser.storage.sync.set({
             showNotification: doNotification,
-            showBolt: doBolt
+            showsmash: doSmash
         },
         function() {
             //update status to let user know the options were saved
             var status = document.getElementById('status');
-            status.innerHTML = '<div>pr&eacute;f&eacute;rences sauvegard&eacute;es</div>';
+            status.innerHTML = '<div>Pr&eacute;f&eacute;rences sauvegard&eacute;es.</div>';
             setTimeout(function() {
                 status.innerHTML = '';
-            }, 750);
+            }, 1000);
         });
 }
 
@@ -35,10 +35,10 @@ function restore_options() {
             document.getElementById('notification').checked = items.showNotification;
         });
     browser.storage.sync.get({
-            showBolt: true,
+            showsmash: true,
         },
         function(items) {
-            document.getElementById('bolt').checked = items.showBolt;
+            document.getElementById('smash').checked = items.showsmash;
         });
 }
 
@@ -48,7 +48,7 @@ function restore_options() {
 document.addEventListener('DOMContentLoaded', restore_options);
 
 /**
- * Listen to the 'notification' button
+ * Listen to the 'notification' and 'smash' buttons
  */
 document.getElementById('notification').addEventListener('click', save_options);
-document.getElementById('bolt').addEventListener('click', save_options);
+document.getElementById('smash').addEventListener('click', save_options);

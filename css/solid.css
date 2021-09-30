@@ -1,12 +1,15 @@
 @font-face {
-  font-family: 'FontAwesomeX';
+  font-family: 'xfa';
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url("../webfonts/xfa-solid-900.woff2") format("woff2"), url("../webfonts/xfa-solid-900.woff") format("woff");
-/*  src: url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff2") format("woff2"), url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff") format("woff");*/
+/**
+ * Chrome and Firefox different methods for extra fonts
+ */
+/*  src: url("../webfonts/xfa-solid-900.woff2") format("woff2"), url("../webfonts/xfa-solid-900.woff") format("woff"); */
+  src: url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff2") format("woff2"), url("chrome-extension://__MSG_@@extension_id__/webfonts/xfa-solid-900.woff") format("woff");
  }
 
 .xfas {
-  font-family: 'FontAwesomeX';
+  font-family: 'xfa';
   font-weight: 900; }

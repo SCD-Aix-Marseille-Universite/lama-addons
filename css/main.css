@@ -35,7 +35,7 @@ a[name="SMASHLink"].smash-link:active {
 
 
 a[name="SMASHLink"].smash-link:before {
-  font-family: "FontAwesomeX";
+  font-family: "xfa";
   font-weight: 400;
   content: "\f0e7";
 }

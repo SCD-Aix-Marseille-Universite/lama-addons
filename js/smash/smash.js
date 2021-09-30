@@ -356,7 +356,7 @@ SMASHLinkInserter = {
 
 function getUserPreferences(callback) {
     browser.storage.sync.get({
-            showBolt: true,
+            showSmash: true,
         },
         function(items) {
             callback(items);
@@ -364,7 +364,7 @@ function getUserPreferences(callback) {
 }
 
 getUserPreferences(function(userPreferences) {
-  if (userPreferences.showBolt) {
+  if (userPreferences.showSmash) {
     SMASHLinkInserter.onDOMContentLoaded();
   };
 });

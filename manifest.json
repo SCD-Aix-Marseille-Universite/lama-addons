@@ -11,12 +11,6 @@
 		"64": "img/1x.png",
 		"128": "img/2x.png"
 	},
-	"applications": {
-		"gecko": {
-		  "id": "lama@univ-amu.fr",
-		  "strict_min_version": "48.0"
-		}
-	},
 	"browser_action" : {
 		"default_title" : "lama",
 		"default_popup" : "popup.html"
@@ -41,7 +35,7 @@
 	  ],
 	  "css": [
 	    "css/main.css",
-	    "css/fontawesomeX.css",
+	    "css/xfa.css",
 	    "css/solid.css"
 	  ]
 	},
