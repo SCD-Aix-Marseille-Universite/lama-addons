@@ -24,7 +24,7 @@ var getRedirectUrl = function(url) {
  */
 function getCurrentTabUrl(callback) {
     var url = window.location.search;
-    var use_url = url.substr(1);
+    var use_url = url.substring(1);
     console.log("URL :" + url);
     console.log("URL used :" + use_url);
     callback(use_url);

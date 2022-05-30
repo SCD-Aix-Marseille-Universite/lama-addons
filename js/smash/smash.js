@@ -2,12 +2,6 @@ if (typeof chrome !== "undefined" && chrome) {
     browser = chrome
 }
 
-
-var devLog = function(str, obj){
-  console.log("smash: " + str, obj)
-}
-devLog("smash is running")
-
 var SMASHLinkInserter;
 
 const forbidenElements = ['applet',
@@ -90,12 +84,6 @@ SMASHLinkInserter = {
     }
 
   },
-
-//  onDOMNodeInserted: function (event) {
-//    var node = event.target;
-//    console.log('node is inserted');
-//    SMASHLinkInserter.findAndReplaceLinks(node);
-//  },
 
   scanForDoiAndPubmedStrings: function (domNode, prefixStatus) {
     var prefix = prefixStatus;
@@ -352,7 +340,6 @@ SMASHLinkInserter = {
 
     browser.storage.sync.get(function (result) {
     var requestUrl = SMASHLinkInserter.openURLPrefix + href;
-    devLog("OpenURL :",requestUrl);
     parent && parent.appendChild(SMASHLinkInserter.createLink(requestUrl));
     });
 

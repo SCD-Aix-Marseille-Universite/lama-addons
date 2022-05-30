@@ -18,16 +18,6 @@ if (typeof chrome !== "undefined" && chrome) {
 var getRedirectUrl = function(url) {
     //url to the login page
     var proxy = "https://lama.univ-amu.fr/login?qurl=";
-
-    /**
-     * Special cases
-     */
-    //off campus access to WebOfKnowledge will send you to a login page that can't be proxied
-    //so redirect to proxied start page
-    if (url.indexOf('login.webofknowledge.com') > -1) {
-        url = 'http://apps.webofknowledge.com';
-    }
-    return proxy + encodeURIComponent(url);
 };
 
 /**
@@ -36,20 +26,10 @@ var getRedirectUrl = function(url) {
  *
  * @type {Array}
  */
-// var urlsToProxy = urlsList;
 
 /**
  * Determine the domain (which you can then check agains urls.min.js)
  */
-//function getDomain(url) {
-//    var doubleSlash = url.indexOf('//');
-//    var unHttp = url.substr(doubleSlash + 2);
-//    var domainSlash = unHttp.indexOf('/');
-//    var domain = unHttp.substr(0, domainSlash);
-//
-//    return domain;
-//}
-
 /**
  * function to see if the url can be proxied
  *
@@ -67,13 +47,8 @@ function getProxied(searchUrl, callback) {
         return null;
     }
 
-//    var tldomain = domain.match(/[\w]+\.[\w]+$/)[0];
     var parentDomain = domain.substr(domain.indexOf('.') + 1);
     var grandparentDomain = parentDomain.substr(parentDomain.indexOf('.') + 1);
-
-    devLog("d : ",domain);
-    devLog("pd : ",parentDomain);
-    devLog("gpd : ",grandparentDomain);
 
     /**
      * Save in storage
@@ -81,7 +56,12 @@ function getProxied(searchUrl, callback) {
     // Check if we are browsing a site via the proxy
     saveStorageOnProxy(domain.indexOf('lama.univ-amu.fr') !== -1);
 
-    if (urlsToProxy.indexOf(domain) != -1 || urlsToProxy.indexOf(parentDomain) != -1 || urlsToProxy.indexOf('www.' + parentDomain) != -1 || urlsToProxy.indexOf(grandparentDomain) != -1 ) {
+    if (
+        urlsToProxy.indexOf(domain) != -1 || 
+        urlsToProxy.indexOf(parentDomain) != -1 || 
+        urlsToProxy.indexOf('www.' + parentDomain) != -1 || 
+        urlsToProxy.indexOf(grandparentDomain) != -1
+        ) {
         toProxy = 'yes';
         saveStorageToProxy('yes');
         callback(toProxy);
