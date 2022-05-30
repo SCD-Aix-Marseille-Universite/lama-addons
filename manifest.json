@@ -3,7 +3,7 @@
 	"name" : "lama",
     "short_name" : "lama",
 	"description" : "Accès en 1 clic aux ressources des bibliothèques de l'Université d'Aix-Marseille.",
-	"version" : "0.82",
+	"version" : "0.83",
 	"icons": {
 		"16": "img/1x.png",
 		"32": "img/1x.png",
@@ -45,8 +45,6 @@
 	},
 	"permissions": [
 		"alarms",
-		"webNavigation",
-		"notifications",
 		"tabs",
 		"storage",
 		"*://*/*"
