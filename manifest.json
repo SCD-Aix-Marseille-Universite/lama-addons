@@ -38,14 +38,6 @@
 	    "css/xfa.css",
 	    "css/solid.css"
 	  ]
-	},
-	{
-	  "matches": [
-	    "<all_urls>","http://*/*", "https://*/*"
-	  ],
-	  "js": [
-	    "js/vendors/jquery.min.js"
-	  ]
 	}
 	],	"options_ui": {
 		"page": "options.html",
@@ -60,7 +52,6 @@
 		"*://*/*"
 	],
 	"web_accessible_resources" : [
-		"notification.html",
 		"notification.html",
 		"suggestedsites.html",
 		"webfonts/*.woff*"

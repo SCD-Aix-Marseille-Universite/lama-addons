@@ -2,6 +2,12 @@ if (typeof chrome !== "undefined" && chrome) {
     browser = chrome
 }
 
+
+var devLog = function(str, obj){
+  console.log("smash: " + str, obj)
+}
+devLog("smash is running")
+
 var SMASHLinkInserter;
 
 const forbidenElements = ['applet',
@@ -346,7 +352,7 @@ SMASHLinkInserter = {
 
     browser.storage.sync.get(function (result) {
     var requestUrl = SMASHLinkInserter.openURLPrefix + href;
-    console.log(requestUrl);
+    devLog("OpenURL :",requestUrl);
     parent && parent.appendChild(SMASHLinkInserter.createLink(requestUrl));
     });
 

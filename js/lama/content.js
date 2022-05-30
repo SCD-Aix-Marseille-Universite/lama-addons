@@ -17,7 +17,7 @@ if (document.getElementById("lama_notification_frame")) {
     iframe.style.position = "fixed";
     iframe.style.bottom = "0px";
     iframe.style.right = "0px";
-    iframe.style.zIndex = 2147483647;
+    iframe.style.zIndex = "9999999999";
     iframe.style.width = "65px";
     iframe.style.height = "65px";
     iframe.src = browser.extension.getURL("notification.html?" + url);

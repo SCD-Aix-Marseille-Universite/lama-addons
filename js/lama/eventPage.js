@@ -41,14 +41,14 @@ var getRedirectUrl = function(url) {
 /**
  * Determine the domain (which you can then check agains urls.min.js)
  */
-function getDomain(url) {
-    var doubleSlash = url.indexOf('//');
-    var unHttp = url.substr(doubleSlash + 2);
-    var domainSlash = unHttp.indexOf('/');
-    var domain = unHttp.substr(0, domainSlash);
-
-    return domain;
-}
+//function getDomain(url) {
+//    var doubleSlash = url.indexOf('//');
+//    var unHttp = url.substr(doubleSlash + 2);
+//    var domainSlash = unHttp.indexOf('/');
+//    var domain = unHttp.substr(0, domainSlash);
+//
+//    return domain;
+//}
 
 /**
  * function to see if the url can be proxied
@@ -67,8 +67,13 @@ function getProxied(searchUrl, callback) {
         return null;
     }
 
-    var tldomain = domain.match(/[\w]+\.[\w]+$/)[0];
+//    var tldomain = domain.match(/[\w]+\.[\w]+$/)[0];
     var parentDomain = domain.substr(domain.indexOf('.') + 1);
+    var grandparentDomain = parentDomain.substr(parentDomain.indexOf('.') + 1);
+
+    devLog("d : ",domain);
+    devLog("pd : ",parentDomain);
+    devLog("gpd : ",grandparentDomain);
 
     /**
      * Save in storage
@@ -76,7 +81,7 @@ function getProxied(searchUrl, callback) {
     // Check if we are browsing a site via the proxy
     saveStorageOnProxy(domain.indexOf('lama.univ-amu.fr') !== -1);
 
-    if (urlsToProxy.indexOf(domain) != -1 || urlsToProxy.indexOf(parentDomain) != -1 || urlsToProxy.indexOf('www.' + parentDomain) != -1) {
+    if (urlsToProxy.indexOf(domain) != -1 || urlsToProxy.indexOf(parentDomain) != -1 || urlsToProxy.indexOf('www.' + parentDomain) != -1 || urlsToProxy.indexOf(grandparentDomain) != -1 ) {
         toProxy = 'yes';
         saveStorageToProxy('yes');
         callback(toProxy);
