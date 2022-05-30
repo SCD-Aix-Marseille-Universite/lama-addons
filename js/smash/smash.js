@@ -79,8 +79,6 @@ SMASHLinkInserter = {
     if (document.contentType === 'text/html') {
       var currentUrl = window.location.href;
       SMASHLinkInserter.findAndReplaceLinks(rootElement);
-//      rootElement.addEventListener('DOMNodeInserted', SMASHLinkInserter.onDOMNodeInserted, false);
-// TODO : https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver
     }
 
   },
