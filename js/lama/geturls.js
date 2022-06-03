@@ -21,6 +21,14 @@ browser.runtime.onStartup.addListener(function() {
     });
 });
 
+browser.runtime.onConnect.addListener(function() {
+    validateCacheEzProxy();
+    chrome.alarms.create("refreshProxyList", {
+        "periodInMinutes":  10,
+        "delayInMinutes": 2
+    });
+});
+
 chrome.alarms.onAlarm.addListener(function() {
     validateCacheEzProxy();
 });
